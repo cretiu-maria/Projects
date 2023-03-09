@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- disable state. -->
+    <item android:drawable="@color/deep_space_sparkle" android:state_enabled="false">
+
+    </item>
+
+    <item android:drawable="@color/pewter_blue" android:state_enabled="true">
+
+    </item>
+    <item android:drawable="@color/deep_space_sparkle" />
+</selector>
