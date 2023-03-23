@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Project_POCU</string>
+    <string name="get_started">Get Started</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_wate_food">About waste food</string>
+    <string name="about_waste_food">About waste food</string>
+    <string name="contact">Contact</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="slogan">You can now save the planet by doing the simplest thing on earth. Eating.</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account? Register here</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="already_have_an_account_login_here">Already have an account login here</string>
+    <string name="about_fragment">About Fragment</string>
+    <string name="please_login_to_continue">Please Login to continue</string>
+    <string name="login_as_admin">Login as admin</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="enter_product_price">Enter Product Price</string>
+    <string name="enter_product_quantity">Enter Product Quantity</string>
+    <string name="enter_product_image_link">Enter Product Image Link</string>
+    <string name="enter_product_description">Enter Product Description</string>
+    <string name="add_your_product">Add Your Product</string>
+    <string name="update_your_n_product">Update Your \n Product</string>
+    <string name="delete_your_n_product">Delete Your \n Product</string>
+    <string name="id">Id</string>
+    <string name="product_available">Product Available</string>
+    <string name="enter_product_category">Enter Product Category</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="rol_id">Rol ID</string>
+    <string name="register">Register</string>
+    <string name="product_available_1">Product Available</string>
+    <string name="reduce_food_waste">Reduce food waste</string>
+    <string name="our_founders">Our founders:</string>
+    <string name="content1">Waste No Food was founded in 2011 to divert excess food to hungry people. Since then, it has provided millions of meals to the hungry and has initiated partnerships with the City of San Jose, San Francisco Airport, the Tampa Bay Network to End Hunger, and the University of Illinois. Kiran Sridhar is the Chair of Waste No Food, which he founded in 2011. He\'s passionate about employing technology to address seemingly intractable problems.udha Sarma is Waste No Food\'s Executive Director. She previously served in software engineering and marketing roles at Toshiba and IBM. She holds multiple patents.</string>
+    <string name="why_is_good_wasted">Why is good wasted?</string>
+    <string name="content2">We’re not talking about leftovers or stuff that’s gone bad. We mean good food. Every day, food businesses throw out high-quality, delicious food. It could be pallets of fresh bell peppers that aren’t the ideal shape.</string>
+    <string name="content2.1">Or carrots that are a little crooked. Or milk that was over-ordered for a local school district. Point is, it’s food that could feed people rather than ending up in a landfill.</string>
+
+    <string name="the_food_waste_crisis">The food waste crisis</string>
+
+    <string name="content3">As much as 40 percent of all food goes unsold or uneaten in the United States. Instead of being consumed, this food ends up in a landfill, where it </string>
+    <string name="content3.1">decomposes and releases methane — a greenhouse gas between 24 and 87 times more potent than CO2. This makes reducing food waste one of the top three ways to reverse climate change.</string>
+    <string name="why_is_good_food_wasted">Why is good food wasted?</string>
+
+    <string name="content4">content4..................................</string>
+    <string name="our_parteners">Our parteners</string>
+    <string name="content5">We are grateful for these food donor, charity parteners and financial supporters.</string>
+    <string name="content6">Our Donor Parteners:</string>
+    <string name="about_us">About us</string>
+    <string name="our_founders_about">Our founders?</string>
+    <string name="content1_about">We are a small group of students who banded together for the sole purpose of helping to diminish one of the greatest disasters of our time., food waste. For this reason, we decided to start by helping reduce this phenomenon on the restaurant level.</string>
+    <string name="content2_about">Approximately one third of all food in Romania ends up in the trash or is unnecessarily wasted annually. This amount corresponds to about 2.55 million tons of food products. Unfortunately, waste can be found at all levels of society, from the smallest household to the largest enterprise. Worldwide one in nine people do not have enough food to eat, that’s 793 million people who are undernourished, at the same time if one quarter of the food currently lost or wasted could be saved, it would be enough to feed 870 million hungry people. The food currently wasted in Europe could feed 200 million people, in Latin America 300 million people and in Africa 300 million people. Annual per capita waste by consumers is between 95-115kgs a year for Europeans and North Americans, while in south and southeastern Asia, it is 6-11kgs. In developing countries, 40% of losses occur at the post-harvest and processing stages, while in developed countries, more than 40% of losses occur at the retail and consumer levels.</string>
+    <string name="how_does_it_affect_us">How does it affect us?</string>
+    <string name="content3_about">The discarded food combines with the already existing waste and begins a slow process of decomposition, which releases methane. Methane is one of the most powerful greenhouse gases, 28x stronger than carbon dioxide. Once in the atmosphere, it contributes massively to global warming. Each product that arrives in front of you has gone through countless stages such as collection, packaging or transport, thus involving the consumption of several resources, the best example being the fuel used for transport and other machinery which as we very well know is one of the great causes of pollution. By mid-century, the world population will hit 9 billion people. By then, food production must be increased by 70% from today’s levels to meet this demand. Food losses translate into lost income for farmers and higher prices for consumers, giving us an economic incentive to reduce food waste.</string>
+    <string name="impact_on_the_environment">Impact on the environment</string>
+    <string name="content4_about">The discarded food combines with the already existing waste and begins a slow process of decomposition, which releases methane. Methane is one of the most powerful greenhouse gases, 28x stronger than carbon dioxide. Once in the atmosphere, it contributes massively to global warming. Each product that arrives in front of you has gone through countless stages such as collection, packaging or transport, thus involving the consumption of several resources, the best example being the fuel used for transport and other machinery which as we very well know is one of the great causes of pollution. By mid-century, the world population will hit 9 billion people. By then, food production must be increased by 70% from today’s levels to meet this demand. Food losses translate into lost income for farmers and higher prices for consumers, giving us an economic incentive to reduce food waste.</string>
+
+</resources>

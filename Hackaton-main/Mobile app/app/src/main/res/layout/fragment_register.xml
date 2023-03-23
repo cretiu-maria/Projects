@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include
+        android:id="@+id/toolbar_register"
+        layout="@layout/toolbar_login_register" />
+
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin_50"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_40"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_register" />-->
+
+    <EditText
+        android:id="@+id/username_field_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_20"
+        android:layout_marginTop="@dimen/layout_margin_50"
+        android:layout_marginRight="@dimen/layout_margin_20"
+        android:background="@drawable/button_login"
+        android:drawableStart="@drawable/ic_username"
+        android:gravity="bottom"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="@dimen/padding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_title" />
+
+    <EditText
+        android:id="@+id/password_field_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_20"
+        android:layout_marginTop="@dimen/layout_margin_10"
+        android:layout_marginRight="@dimen/layout_margin_20"
+        android:background="@drawable/button_login"
+        android:drawableStart="@drawable/ic_password"
+        android:gravity="bottom"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:padding="@dimen/padding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_field_register" />
+
+    <EditText
+        android:id="@+id/email_field_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_20"
+        android:layout_marginTop="@dimen/layout_margin_10"
+        android:layout_marginRight="@dimen/layout_margin_20"
+        android:background="@drawable/button_login"
+        android:drawableStart="@drawable/ic_password"
+        android:gravity="bottom"
+        android:hint="@string/email"
+        android:minHeight="48dp"
+        android:padding="@dimen/padding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_field_register" />
+
+    <EditText
+        android:id="@+id/name_fil_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_20"
+        android:layout_marginTop="@dimen/layout_margin_10"
+        android:layout_marginRight="@dimen/layout_margin_20"
+        android:background="@drawable/button_login"
+        android:drawableStart="@drawable/ic_password"
+        android:gravity="bottom"
+        android:hint="@string/name"
+        android:minHeight="48dp"
+        android:padding="@dimen/padding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_field_register" />
+
+    <EditText
+        android:id="@+id/phone_number_field_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_20"
+        android:layout_marginTop="@dimen/layout_margin_10"
+        android:layout_marginRight="@dimen/layout_margin_20"
+        android:background="@drawable/button_login"
+        android:drawableStart="@drawable/ic_password"
+        android:gravity="bottom"
+        android:hint="@string/phone_number"
+        android:minHeight="48dp"
+        android:padding="@dimen/padding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_fil_register" />
+
+    <EditText
+        android:id="@+id/rol_id_field_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_20"
+        android:layout_marginTop="@dimen/layout_margin_10"
+        android:layout_marginRight="@dimen/layout_margin_20"
+        android:background="@drawable/button_login"
+        android:drawableStart="@drawable/ic_password"
+        android:gravity="bottom"
+        android:hint="@string/rol_id"
+        android:minHeight="48dp"
+        android:padding="@dimen/padding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number_field_register" />
+
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_20"
+        android:layout_marginTop="@dimen/layout_margin_50"
+        android:layout_marginRight="@dimen/layout_margin_20"
+        android:background="@drawable/button_selector"
+        android:gravity="center"
+        android:padding="@dimen/padding"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rol_id_field_register" />
+
+    <TextView
+        android:id="@+id/login_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_20"
+        android:gravity="center"
+        android:text="@string/already_have_an_account_login_here"
+        android:textColor="@color/dark_slate_gray"
+        android:textSize="@dimen/text_size_15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_button" />
+
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_bar"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
